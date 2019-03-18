@@ -7,4 +7,8 @@ otros: robo3t y mongodb
 npm init
 npm i express --save
 npm i body-parser --save
+npm i mongoose --save
+npm i mongoose-unique-validator --save
+npm i bcrypt --save
+npm install underscore --save
 nodemon <file>
