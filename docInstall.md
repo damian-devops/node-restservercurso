@@ -12,3 +12,8 @@ npm i mongoose-unique-validator --save
 npm i bcrypt --save
 npm install underscore --save
 nodemon <file>
+
+//crear la variable de entorno.
+heroku config:set nombre="damian"
+//eliminar la variable de entorno.
+heroku config:unset nombre="damian"
