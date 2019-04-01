@@ -12,7 +12,11 @@ npm i mongoose-unique-validator --save
 npm i bcrypt --save
 npm install underscore --save
 npm i jsonwebtoken --save
+npm install google-auth-library --save
 nodemon <file>
+
+git push heroku master -> repositorio en heroku
+git push origin master -> repositorio github
 
 //instala el paquete solo en el proyecto y no global
 --save
@@ -20,3 +24,10 @@ nodemon <file>
 heroku config:set nombre="damian"
 //eliminar la variable de entorno.
 heroku config:unset nombre="damian"
+
+
+//tags github
+
+git tag
+git tag -a <version> -m <descripcion>
+git push--tag
