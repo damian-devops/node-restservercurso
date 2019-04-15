@@ -3,7 +3,7 @@
 windows 7 : power shell 3.0 sino no se puede hacer la instalacion de mongo
 otros: robo3t y mongodb
 
-##Comandos
+##Comandos / Paquetes
 npm init
 npm i express --save
 npm i body-parser --save
@@ -13,6 +13,7 @@ npm i bcrypt --save
 npm install underscore --save
 npm i jsonwebtoken --save
 npm install google-auth-library --save
+npm install --save express-fileupload
 nodemon <file>
 
 git push heroku master -> repositorio en heroku
